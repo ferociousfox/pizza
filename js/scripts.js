@@ -10,25 +10,25 @@ function Pizza(size, topping) {
 }
 
 
-Pizza.prototype.yourSize = function() {
-  if (this.size === 10){
-    this.sizePrice === 10;
-  }else if (this.size === 14){
-    this.sizePrice === 14;
-  }else if (this.size === 20){
-    this.sizePrice === 20;
-  };
-}
-
-Pizza.prototype.yourTopping = function(){
-  if (this.topping === 1){
-    this.toppingPrice === 4;
-  }else if(this.topping === 4){
-    this.toppingPrice === 8;
-  }else if(this.topping === 5){
-    this.toppingPrice === 11;
-  };
-}
+// Pizza.prototype.yourSize = function() {
+//   if (this.size === 10){
+//     this.sizePrice === 10;
+//   }else if (this.size === 14){
+//     this.sizePrice === 14;
+//   }else if (this.size === 20){
+//     this.sizePrice === 20;
+//   };
+// }
+//
+// Pizza.prototype.yourTopping = function(){
+//   if (this.topping === 1){
+//     this.toppingPrice === 4;
+//   }else if(this.topping === 4){
+//     this.toppingPrice === 8;
+//   }else if(this.topping === 5){
+//     this.toppingPrice === 11;
+//   };
+// }
 
 Pizza.prototype.setPizzaPrice = function(){
   return this.size + this.topping;

@@ -18,7 +18,7 @@ _a user interface that will take a users order and give them a price of the orde
 
   * _take in a range of toppings plus the size of pizza_
     * _input: small, 2-4 toppings_
-    * _output: $16.00_
+    * _output: $14.00_
 
 
 
@@ -41,7 +41,7 @@ _a user interface that will take a users order and give them a price of the orde
 
 ### Known bugs
 
-_does not return a price to the user_
+_no known bugs_
 
 #### contact: onyx.shane@gmail.com
 
